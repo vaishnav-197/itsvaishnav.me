@@ -16,22 +16,33 @@
       <div class="loader"></div>
     </div>
 
-    <header>
-      <nav>
-        
-        <ul>
-          <li><a data-page="Home" href="#">Home</a></li>
-          <li><a data-page="about" href="#">About</a></li>
-          <li><a data-page="projects" href="#">Projects</a></li>
-          <li><a data-page="contact" href="#">Contact</a></li>
-        </ul>
+    <div class="container-fluid menu">
+      <nav class="navbar navbar-expand-md fixed-top  navbar-dark bg-black my-navbar ">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
       </nav>
-
-    </header>
+    </div>
     
 
-
-    <div class="container main-info-section" style="background-color: black;">
+    
+    <div class="container main-info-section " style="background-color: black;">
       <div class="text">
         <h1>
           <span>H</span>
@@ -61,10 +72,49 @@
           <span class="m-left">e</span>
           <span class="m-left">r</span>
         </h1>
-        <p>Javascript | React | HTML | CSS</p>
-        <a href="#contact">contact me</a>
+        <p>Javascript | React | HTML | CSS | Python</p>
+        <a href="#contact">Contact me</a>
       </div>
     </div>
+
+
+    <div class="container-fluid about">
+      
+      <div class="row">
+        <div class="col col-sm-1">
+
+        </div>
+        <div class="col-12 ">
+          <h1>About Me</h1>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
+          
+          <p>
+            An Undergratuate in B.Tech Computer Science and Engineering <br>
+            From Cochin University of Science and Technology . An aspiring full stack developer .
+            I make webistes , Progressive Web Apps(PWA) and scrape Web .
+          </p>
+          
+
+        </div>
+        <div class="col-12  col-md-4">
+          <img src="./img/computer.png" alt="#" class="responsive" >
+          
+
+        </div>
+        <div class="col-12 col-sm-2"></div>
+      </div>
+
+    </div>
+
+
+  
+    
+  
     
 
     
@@ -82,7 +132,9 @@
     <script>
       setTimeout(() => {
         $('.loader_bg').fadeToggle();
-      },1500);
+      },1800);
+
+      
     </script>
   </body>
 </html>

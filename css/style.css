@@ -6,6 +6,8 @@
   height: 100%;
 }
 
+
+
 .loader{
   border: 0 solid transparent;
   border-radius: 50%;
@@ -63,11 +65,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
-  padding: 0 100px 0 100px;
-}
 
-nav ul,
+
 .main-info-section,
 .work-category {
   display: flex;
@@ -148,6 +147,7 @@ span.m-left {
   background-color: none;
   border: 3px solid #ed5565;
   color: #ed5565;
+  border-radius: 0 25px 0 25px;
   font-size: .8rem;
   letter-spacing: 2px;
   position: relative;
@@ -178,5 +178,68 @@ span.m-left {
   height: 100%;
 }
 
+.nav-link {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #ed5565;
+  
+  transition: all 0.25s linear;
+  position: relative;
+}
+
+
+.nav-link:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #48cfad;
+  position: absolute;
+  left: 0;
+  bottom: -3px; 
+  transform-origin: left; 
+  transform: scale(0);
+  transition: 0.25s linear;
+
+}
+
+.nav-link:hover:before {
+  transform: scale(1);
+}
+
+
+.about{
+  margin-top: 380px;
+}
+.about h1{
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 100px !important;
+  font-weight: bold;
+  margin: auto;
+
+}
+
+.about p{
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  margin-bottom: 50px !important;
+}
+
+.responsive {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  
+  
+}
 
 
