@@ -115,23 +115,24 @@ header a,
 
 
 .text{
-  margin-top: 200px;
+  margin-top: 39vh;
 
 }
 
 .text h1{
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.7rem;
   cursor: context-menu;
 }
 
 .text span{
-  display: flexbox;
-  font-size: 3rem;
+  display: inline-block;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
 }
 
 .ab span{
-  font-size: 2rem;
+  font-size: 40px !important;
 }
 
 span:hover {
@@ -141,6 +142,8 @@ span:hover {
 
 span.name {
   color: #ed5565;
+  font-size: 70px !important;
+  letter-spacing: 3px;
 
 }
 
@@ -524,14 +527,14 @@ span.m-left {
   font-size: x-large;
   border: 2px solid #48cfad;
   border-radius: 100px;
-  padding: 20px;
+  padding: 17px;
 }
 
 
 footer {
   text-align: center;
   justify-content: center;
-  height: 90px;
+  height: 70px;
   background-color: rgb(21, 1, 46);
   padding-top: 30px;
   margin-top: 200px !important;
@@ -539,7 +542,9 @@ footer {
 
 
 footer p {
-  font-size: 22px;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
   color: rgb(224, 224, 224);
 }
