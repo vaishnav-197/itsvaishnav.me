@@ -57,12 +57,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  
   
 }
 
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 
@@ -124,6 +127,7 @@ header a,
 
 .text span{
   display: inline-block;
+  font-size: 6rem;
 }
 
 span:hover {
@@ -145,7 +149,7 @@ span.m-left {
 .text p {
   letter-spacing: 3px;
   word-spacing: 10px;
-  font-size: .8rem;
+  font-size: 1.2rem;
 }
 
 .text a{
@@ -156,7 +160,7 @@ span.m-left {
   border-radius: 0 25px 0 25px;
   font-family: 'Dosis', sans-serif;
 
-  font-size: .8rem;
+  font-size: 1.2rem;
   letter-spacing: 2px;
   position: relative;
   top: 80px;
@@ -192,11 +196,11 @@ span.m-left {
 
 .nav-link {
   color: #fff !important;
-  font-size: 17px;
+  font-size: 25px;
   
   letter-spacing: 5px !important;
   border-bottom: 3px solid #ed5565;
-  font-family: 'Patua One', cursive;
+  font-family: 'Dosis', sans-serif;
   transition: all 0.5s linear;
   position: relative;
 }
@@ -223,7 +227,9 @@ span.m-left {
 
 
 .about{
-  margin-top: 440px;
+  
+  
+  margin-top: 540px !important;
 }
 .about h1{
   text-align: center;
@@ -231,6 +237,7 @@ span.m-left {
   font-size: 80px;
   margin-bottom: 100px !important;
   color: #8E54E9; 
+  
 
 }
 
@@ -244,6 +251,7 @@ span.m-left {
   margin-bottom: 50px !important;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
+  font-size: 1.4rem;
 }
 
 .responsive {
@@ -283,6 +291,7 @@ span.m-left {
   font-weight: 500;
   text-transform: capitalize;
   color: #48cfad;
+  font-size: 1.2rem;
 }
 
 .sk li:before {
@@ -349,7 +358,7 @@ span.m-left {
 
 @keyframes re {
   to{
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -371,13 +380,13 @@ span.m-left {
 
 @keyframes nd {
   to{
-    width: 48%;
+    width: 58%;
   }
 }
 
 
 .project{
-  margin-top: 250px !important;
+  margin-top: 380px !important;
 }
 
 .project h1{
@@ -391,7 +400,7 @@ span.m-left {
 
 }
 
-#proj img{
+.project img{
   margin-top: -40px;
   width: 80px !important;
   max-width: 50%;
@@ -402,7 +411,10 @@ span.m-left {
   border-radius: 20px  !important;
   box-shadow: 0px 0px 6px whitesmoke ;
   background-image: linear-gradient(-90deg, #4776E6, #8E54E9);
-  height: 210px !;
+  height: 280px !important;
+  font-size: 1.2rem;
+  width: 220px;
+  margin: 10px;
   transition:all 0.3s ease-in ;
   -webkit-transition: all 0.3s ease-in ;
   -moz-transition: all 0.3s ease-in;
@@ -420,7 +432,7 @@ span.m-left {
 
 
 
-#proj p{
+.project p{
   font-weight: 500;
   color: #fff;
 }
@@ -460,14 +472,14 @@ span.m-left {
 
 
 .contact{
-  margin-top: 160px !important;
-  margin-bottom: 100px !important;
+  margin-top: 360px !important;
+  
 }
 
 .contact h1 {
   
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 10px !important;
     font-weight: lighter;
     font-family: 'Monoton', cursive;
@@ -491,10 +503,63 @@ span.m-left {
 
 .contact a:hover {
   color: #ff5733 !important;
+  
 }
 
 
 .icons {
   text-align: center;
-  margin-top: 50px !important;
+  margin-top: 10px !important;
+  
+  
 }
+
+.icons i {
+  margin-top: 50px !important;
+  font-size: x-large;
+  border: 2px solid #48cfad;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+
+footer {
+  text-align: center;
+  justify-content: center;
+  height: 90px;
+  background-color: rgb(21, 1, 46);
+  padding-top: 30px;
+  margin-top: 200px !important;
+}
+
+
+footer p {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(224, 224, 224);
+}
+
+
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
+}
+
+
+
+
