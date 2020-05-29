@@ -203,8 +203,8 @@ span.m-left {
 
 .nav-link {
   color: #fff !important;
-  font-size: 25px;
-  
+  font-size: 18px;
+  font-weight: bold;
   letter-spacing: 5px !important;
   border-bottom: 3px solid #ed5565;
   font-family: 'Dosis', sans-serif;
